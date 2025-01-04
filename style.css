@@ -1,0 +1,105 @@
+
+body{
+
+    font-family: 'PT Sans' sans-serif;
+    color: aliceblue !important;
+    background-color: rgb(33, 29, 29) !important;
+    line-height: 1.6 !important;
+}
+ul li a{
+    color: rgb(64, 60, 60);
+    text-decoration: none;
+}
+.h-part{
+    margin: 0;
+    padding:0;
+    background: url("https://wallpaperaccess.com/full/3468697.jpg") no-repeat  center/cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+.content{
+    margin-top: 30vh;
+    text-align: center;
+}
+.content h2{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    position: fixed;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    
+}
+nav li{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: gray;
+}
+.h-part a{
+    color: white;
+}
+.f-foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.f-foot ul{
+    font-size: 1rem;
+    list-style: none;
+    margin-left: 30px;
+}
+.f-foot h5{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px rgb(56, 53, 53);
+}
+.f-foot li a{
+    color: rgb(119, 106, 106);
+}
+.au a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 3rem;
+}
+.au{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.footer-bottom{
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    padding: 10px;
+}
+.button{
+    margin-left: 800px;
+    padding: 4px;
+    width: 70px;
+    background-color: rgb(78, 184, 241);
+}
+nav button{
+    text-align: center;
+}
+.section{
+    padding: 10px;
+}
+
+
+
+
